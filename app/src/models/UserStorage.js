@@ -14,7 +14,6 @@ class UserStorage {
   }
 
   static getUsers(...fields) {
-    // const users = this.#users;
     const newUsers = fields.reduce((newUsers, field) => {
       if (users.hasOwnProperty(field)) {
         newUsers[field] = users[field];
