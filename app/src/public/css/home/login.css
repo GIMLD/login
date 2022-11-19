@@ -1,0 +1,61 @@
+*{
+  box-sizing: border-box;
+  font font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #c0c0c0;
+}
+
+.login-form {
+  width: 300px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #343434;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.text-field {
+  font-size: 14px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+}
+
+.submit-btn {
+  color: #343434;
+  font-size: 14px;
+  background-color: #c0c0c0;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.social-submit-btn {
+  color: #3A1D1D;
+  font-size: 14px;
+  background-color: #F7E600;
+  margin-bottom: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  font-size: 12px;
+  color: #9B9B9B;
+}
